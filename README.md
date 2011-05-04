@@ -1,6 +1,4 @@
-#Wicket Kickoff
-
-__Minikurs i Apache Wicket__
+# Wicket Kickoff
 
 
 
