@@ -25,6 +25,6 @@ public class ProfilePage extends WebPage {
         };
         add(
                 new Label("name", user.getName()),
-                link);
+                link.add(new Label("user.edit", "Edit " + user.getName() + "'s profile" )));
     }
 }
