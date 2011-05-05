@@ -33,9 +33,11 @@ public class EditUserPageTest {
     @Test
     public void canEditUsersName() {
         wicket.startPage(EditUserPage.class, new PageParameters("id=1"));
+
         FormTester userform = wicket.newFormTester("userform");
         userform.setValue("name", "A brand new name!");
         userform.submit();
+
         wicket.assertRenderedPage(ProfilePage.class);
         wicket.assertContains("A brand new name!");
     }
