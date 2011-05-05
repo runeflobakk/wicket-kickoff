@@ -24,6 +24,7 @@
 
 # Hello World
 
+[github.com/runeflobakk/wicket-kickoff/tree/helloworld](https://github.com/runeflobakk/wicket-kickoff/tree/helloworld)
 Minimalt prosjekt som inneholder:
 
 - Wicket webapp med 1 side med 1 tekstkomponent
@@ -32,6 +33,8 @@ Minimalt prosjekt som inneholder:
 
 
 # Livssyklus
+
+[github.com/runeflobakk/wicket-kickoff/tree/livssyklus](https://github.com/runeflobakk/wicket-kickoff/tree/livssyklus)
 
 Wicket oppretter ny instans av en WebPage når man går til en URL i en browser.
 Denne instansen er kun for gjeldende sesjon. Komponenter og innhold legges til i
@@ -47,12 +50,16 @@ for å "referere" til objekter som er grunnlaget for data til komponenter.
 
 # Komponenter
 
+[github.com/runeflobakk/wicket-kickoff/tree/komponenter](https://github.com/runeflobakk/wicket-kickoff/tree/komponenter)
+
 - [Label](http://wicket.apache.org/apidocs/1.4/org/apache/wicket/markup/html/basic/Label.html)
 - [RepeatingView](http://wicket.apache.org/apidocs/1.4/org/apache/wicket/markup/repeater/RepeatingView.html), [ListView](http://wicket.apache.org/apidocs/1.4/org/apache/wicket/markup/html/list/ListView.html)
 - [TabbedPanel](http://wicket.apache.org/apidocs/1.4/org/apache/wicket/extensions/markup/html/tabs/TabbedPanel.html)
 
 
 # Testing
+
+[github.com/runeflobakk/wicket-kickoff/tree/testing](https://github.com/runeflobakk/wicket-kickoff/tree/testing)
 
 Testing av Wicket-sider og enkeltkomponenter kan gjøres med
 [WicketTester](http://wicket.apache.org/apidocs/1.4/org/apache/wicket/util/tester/WicketTester.html).
