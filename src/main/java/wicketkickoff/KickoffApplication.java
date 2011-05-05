@@ -21,10 +21,14 @@ public class KickoffApplication extends WebApplication {
     @Override
     protected void init() {
         super.init();
-        addComponentInstantiationListener(new SpringComponentInjector(this));
+        addComponentInstantiationListener(newSpringComponentInjector());
         mount(new HybridUrlCodingStrategy("/user", ProfilePage.class));
         mount(new HybridUrlCodingStrategy("/user/edit", EditUserPage.class));
         mount(new HybridUrlCodingStrategy("/admin/users", ViewUsersPage.class));
+    }
+
+    protected SpringComponentInjector newSpringComponentInjector() {
+        return new SpringComponentInjector(this);
     }
 
 }
