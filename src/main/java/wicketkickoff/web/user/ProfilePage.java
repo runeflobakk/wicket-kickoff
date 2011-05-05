@@ -1,4 +1,4 @@
-package wicketkickoff.web.helloworld;
+package wicketkickoff.web.user;
 
 import org.apache.wicket.PageParameters;
 import org.apache.wicket.markup.html.WebPage;

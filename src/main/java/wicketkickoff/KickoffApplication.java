@@ -7,8 +7,8 @@ import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 import org.springframework.stereotype.Component;
 
 import wicketkickoff.web.admin.ViewUsersPage;
-import wicketkickoff.web.helloworld.EditUserPage;
-import wicketkickoff.web.helloworld.ProfilePage;
+import wicketkickoff.web.user.EditUserPage;
+import wicketkickoff.web.user.ProfilePage;
 
 @Component
 public class KickoffApplication extends WebApplication {
