@@ -13,9 +13,9 @@ public class UserRepository {
     private Map<Integer, User> users = new HashMap<Integer, User>();
 
     public UserRepository() {
-        users.put(1, new User("Rune Flobakk"));
-        users.put(2, new User("John Doe"));
-        users.put(3, new User("Super Mario"));
+        users.put(1, new User(1, "Rune Flobakk"));
+        users.put(2, new User(2, "John Doe"));
+        users.put(3, new User(3, "Super Mario"));
     }
 
     public List<User> all() {

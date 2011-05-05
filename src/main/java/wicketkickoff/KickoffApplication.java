@@ -6,6 +6,7 @@ import org.apache.wicket.request.target.coding.HybridUrlCodingStrategy;
 import org.apache.wicket.spring.injection.annot.SpringComponentInjector;
 import org.springframework.stereotype.Component;
 
+import wicketkickoff.web.admin.ViewUsersPage;
 import wicketkickoff.web.helloworld.EditUserPage;
 import wicketkickoff.web.helloworld.ProfilePage;
 
@@ -23,6 +24,7 @@ public class KickoffApplication extends WebApplication {
         addComponentInstantiationListener(new SpringComponentInjector(this));
         mount(new HybridUrlCodingStrategy("/user", ProfilePage.class));
         mount(new HybridUrlCodingStrategy("/user/edit", EditUserPage.class));
+        mount(new HybridUrlCodingStrategy("/admin/users", ViewUsersPage.class));
     }
 
 }
