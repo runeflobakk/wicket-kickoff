@@ -2,13 +2,13 @@ package wicketkickoff.web.admin;
 
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.markup.html.list.ListItem;
-import org.apache.wicket.markup.html.list.ListView;
+import org.apache.wicket.markup.html.list.PropertyListView;
 import org.apache.wicket.spring.injection.annot.SpringBean;
 
 import wicketkickoff.domain.User;
 import wicketkickoff.domain.UserRepository;
 
-public class UsersTable extends ListView<User> {
+public class UsersTable extends PropertyListView<User> {
 
     @SpringBean
     private UserRepository userRepository;
@@ -20,9 +20,8 @@ public class UsersTable extends ListView<User> {
 
     @Override
     protected void populateItem(ListItem<User> item) {
-        User user = item.getModelObject();
-        item.add(new Label("id", String.valueOf(user.getId())));
-        item.add(new Label("name", user.getName()));
+        item.add(new Label("id"));
+        item.add(new Label("name"));
     }
 
 }
