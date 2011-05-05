@@ -76,3 +76,4 @@ Dette kan ses på som "lette" webtester. Man får testet bl.a.
 1. Wicket javadocs: [wicket.apache.org/apidocs/1.4/](http://wicket.apache.org/apidocs/1.4/)
 2. web.xml configuration: [www.zwiep.net/apache-wicket-web-xml.html](http://www.zwiep.net/apache-wicket-web-xml.html)
 3. Wicket's XHTML tags: [cwiki.apache.org/WICKET/wickets-xhtml-tags.html](https://cwiki.apache.org/WICKET/wickets-xhtml-tags.html)
+4. Examples: [cwiki.apache.org/WICKET/how-to-do-things-in-wicket.html](https://cwiki.apache.org/WICKET/how-to-do-things-in-wicket.html)
